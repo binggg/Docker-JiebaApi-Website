@@ -1,0 +1,16 @@
+{
+  "envId": "YOUR_ENV_ID",
+  "framework": {
+    "name": "jieba",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-container",
+        "inputs": {
+          "serviceName": "jiebaapi",
+          "servicePath": "/jiebaapi",
+          "localPath": "./"
+        }
+      }
+    }
+  }
+}
