@@ -6,9 +6,10 @@
       "client": {
         "use": "@cloudbase/framework-plugin-container",
         "inputs": {
-          "serviceName": "jiebaapi",
-          "servicePath": "/jiebaapi",
-          "localPath": "./"
+          "serviceName": "jieba-api",
+          "servicePath": "/jieba-api",
+          "localPath": "./",
+          "port": 8080
         }
       }
     }
