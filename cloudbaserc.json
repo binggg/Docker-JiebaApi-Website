@@ -9,7 +9,7 @@
           "serviceName": "jieba-api",
           "servicePath": "/jieba-api",
           "localPath": "./",
-          "port": 8080
+          "containerPort": 8080
         }
       }
     }
